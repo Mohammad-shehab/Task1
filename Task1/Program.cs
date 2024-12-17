@@ -22,7 +22,7 @@ Console.WriteLine("------------------------------");
 
 //Bonus!
 // the char data type can only be used for one character {digit,letter or symbol} inside single 
-
+// so it is more efficient to to use char instead of string when we are dealing with single charcters and uses less memory 
 
 // 2 C# Variables
 //Task 1
@@ -39,6 +39,10 @@ double height = 3.2;
 double Area = width * height;
 Console.WriteLine("The area of the rectangle is "+ Area);
 Console.WriteLine("------------------------------");
+
+
+// Bonus: the Constant Variables are the variables that cannot be changed or modified and declared using const and must be initialized when declared. and it is ideal for mathematical constants like pi.
+// // Regular Variables values can be changed and modified any time during excution of the program and they dont have to be initialized when declared.
 
 //challenge 1 
 
